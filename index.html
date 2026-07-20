@@ -45,11 +45,19 @@
   .movers-col h3 { font-size: 12px; letter-spacing: 1px; margin: 0 0 8px 0; }
   .movers-col.gainers h3 { color: var(--green); }
   .movers-col.losers h3 { color: var(--red); }
+  .run-now { display: inline-flex; align-items: center; gap: 6px;
+             padding: 8px 16px; border: 1px solid var(--green);
+             border-radius: 4px; color: var(--green); text-decoration: none;
+             font-size: 12px; letter-spacing: 1px; margin-bottom: 18px; }
+  .run-now:hover { background: rgba(57,255,143,0.1);
+                    box-shadow: 0 0 10px rgba(57,255,143,0.3); }
 </style>
 </head>
 <body>
   <h1>&#9673; REVERSAL SCANNER — RADAR</h1>
-  <div class="meta">Generated 20-Jul-2026 17:51 IST &nbsp;|&nbsp; 499 symbols scanned &nbsp;|&nbsp; timeframes: D, W</div>
+  <div class="meta">Generated 20-Jul-2026 21:32 IST &nbsp;|&nbsp; 499 symbols scanned &nbsp;|&nbsp; timeframes: D, W</div>
+  <a class="run-now" href="https://github.com/lehs-dashboard/reversal-scanner/actions/workflows/scan.yml"
+     target="_blank" rel="noopener">&#9654; RUN SCAN NOW (opens GitHub)</a>
 
   <div class="tabs">
     <div class="tab active" data-panel="signals">RECENT SIGNALS</div>
